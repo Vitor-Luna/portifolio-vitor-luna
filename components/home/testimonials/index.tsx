@@ -8,11 +8,18 @@ import { useIsMobile } from "@/hooks/use-mobile";
 import { GradientText } from "@/components/textAnimations/gradient-text";
 import { TestimonialCard } from "@/components/home/testimonials/testimonial-card";
 import { variants, dotVariants } from "@/components/home/testimonials/variants";
+import { useMemo } from "react";
 import { useTestimonials } from "@/hooks/use-testimonials";
 import { DATA } from "@/data";
 
 export const TestimonialsSection = () => {
-  const { sectionTitle, sectionDescription, items } = DATA.home.testimonials;
+  const { sectionTitle, sectionDescription } = DATA.home.testimonials;
+
+  const items = useMemo(
+    () => DATA.home.testimonials.items,
+    []
+  );
+
   const {
     currentIndex,
     direction,
@@ -24,6 +31,15 @@ export const TestimonialsSection = () => {
 
   const isMobile = useIsMobile();
   const currentTestimonial = items[currentIndex] || items[0];
+
+  const motionTransition = isMobile
+  ? { duration: 0.25 }
+  : {
+      type: "spring",
+      stiffness: 200,
+      damping: 20,
+      duration: 0.5,
+    };
 
   return (
     <section className="py-20 bg-background bg-gradient-to-b from-background to-content2">
@@ -84,12 +100,7 @@ export const TestimonialsSection = () => {
               custom={direction}
               exit="exit"
               initial="initial"
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 20,
-                duration: 0.5,
-              }}
+              transition={motionTransition}
               variants={variants}
             >
               <TestimonialCard {...currentTestimonial} />
