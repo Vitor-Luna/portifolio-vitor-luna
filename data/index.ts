@@ -100,7 +100,7 @@ export const DATA = {
     },
     education: [
       {
-        title: "Curso de Análise e Desenvolvimento de Sistemas - Uninter",
+        title: "Faculdade de Análise e Desenvolvimento de Sistemas - Uninter",
         date: "2024 - 2026",
         icon: "mdi:school",
         description:
@@ -214,8 +214,8 @@ export const DATA = {
         title: "API de Middleware de Integração",
         description:
           "Este projeto é um middleware API desenvolvido para simular e demonstrar um cenário real de integração entre sistemas externos e um ERP corporativo",
-        image: "/images/integra.png",
-        gallery: ["/images/integra.png"],
+        image: "/images/integra.jpg",
+        gallery: ["/images/integra.jpg"],
         category: "APIs - ERPs",
         details:
           "A ideia aqui não é apenas “receber e devolver dados”, mas mostrar como um middleware de verdade se comporta em ambiente corporativo: com validação, transformação, autenticação, resiliência e rastreab",
