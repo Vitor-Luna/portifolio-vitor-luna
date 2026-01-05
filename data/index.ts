@@ -257,7 +257,7 @@ export const DATA = {
     description:
       "Sempre buscando crescer profissionalmente, contribuir em projetos desafiadores e expandir minhas habilidades em integração de sistemas e desenvolvimento de software.",
     contact: {
-      email: "joaoluna853@gmail.com",
+      email: "joaoluna852@gmail.com",
       phone: "+55 12 99222-7736",
       location: "São José dos Campos, SP",
     },
