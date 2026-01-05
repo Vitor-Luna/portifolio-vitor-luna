@@ -9,7 +9,7 @@ export const DATA = {
         "Integrações de sistemas, APIs REST/SOAP, automações e pipelines de dados",
     },
     skills: {
-  sectionTitle: "Skills & Expertise",
+  sectionTitle: "Skills & Especialização",
   sectionDescription:
     "Especializado em soluções corporativas, automações e desenvolvimento de sistemas escaláveis",
   overview: [

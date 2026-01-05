@@ -13,7 +13,7 @@ interface EducationTimelineProps {
 
 export const EducationTimeline = ({ education }: EducationTimelineProps) => (
   <div className="mb-20">
-    <SectionHeader icon="mdi:school-outline" title="Education" />
+    <SectionHeader icon="mdi:school-outline" title="Formações" />
 
     <motion.ol
       className="relative ml-6"

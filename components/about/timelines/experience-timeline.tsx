@@ -12,7 +12,7 @@ interface ExperienceTimelineProps {
 
 export const ExperienceTimeline = ({ experience }: ExperienceTimelineProps) => (
   <div className="mb-24">
-    <SectionHeader icon="mdi:briefcase-outline" title="Experience" />
+    <SectionHeader icon="mdi:briefcase-outline" title="Experiências" />
 
     <motion.ol
       className="relative ml-6"
