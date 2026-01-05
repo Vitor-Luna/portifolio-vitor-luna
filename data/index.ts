@@ -1,3 +1,5 @@
+import { avatar } from "@heroui/react";
+
 export const DATA = {
   home: {
     hero: {
@@ -71,7 +73,7 @@ export const DATA = {
           role: "Desenvolvedor Java Pleno - Betha Sistemas",
           content:
             "Tenho o privilégio de cursar Análise e Desenvolvimento de Sistemas ao lado do Vitor, e posso dizer que ele se destaca desde o início por sua dedicação e interesse genuíno pela área de tecnologia. Sempre disposto a aprender mais, o Vitor é aquele colega que busca compreender a fundo os conteúdos e não mede esforços para ajudar quem está ao redor. É alguém com pensamento lógico apurado, espírito colaborativo e uma trajetória promissora na área de TI.",
-          image: "",
+          avatar: "",
         },
         {
           id: 2,
@@ -79,7 +81,7 @@ export const DATA = {
           role: "Soldado de 1ª Classe - Força Aérea Brasileira",
           content:
             "Tive o prazer de trabalhar com Vitor Luna durante o período em que estivemos no Grupo de Acompanhamento e Controle (GAC-PAC) da Aeronáutica. Vitor se destacou como um profissional comprometido, responsável e extremamente dedicado às suas funções. Sua habilidade em lidar com documentos e processos complexos, além de sua atenção aos detalhes, sempre garantiu que as operações fluíssem de maneira eficiente. Além disso, ele sempre demonstrou proatividade e excelente capacidade de trabalho em equipe, o que contribuiu significativamente para o sucesso do nosso trabalho conjunto. Vitor é, sem dúvida, um excelente profissional e seria uma valiosa adição para qualquer equipe.",
-          image: "",
+          avatar: "",
         },
       ],
     },
