@@ -68,9 +68,9 @@ export const ContactForm: React.FC<ContactFormProps> = ({
             isRequired
             errorMessage={errors.name}
             isInvalid={!!errors.name}
-            label="Name"
+            label="Nome"
             name="name"
-            placeholder="Your full name"
+            placeholder="Seu nome completo"
             startContent={<Icon icon="lucide:user" />}
             value={formData.name}
             variant="bordered"
@@ -84,7 +84,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
             isInvalid={!!errors.email}
             label="Email"
             name="email"
-            placeholder="your.email@example.com"
+            placeholder="seuEmail@email.com"
             startContent={<Icon icon="lucide:mail" />}
             type="email"
             value={formData.email}
@@ -98,9 +98,9 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           isRequired
           errorMessage={errors.subject}
           isInvalid={!!errors.subject}
-          label="Subject"
+          label="Assunto"
           name="subject"
-          placeholder="Project type or inquiry topic"
+          placeholder="Tipo de projeto ou tópico de pesquisa"
           startContent={<Icon icon="lucide:briefcase" />}
           value={formData.subject}
           variant="bordered"
@@ -112,11 +112,11 @@ export const ContactForm: React.FC<ContactFormProps> = ({
           isRequired
           errorMessage={errors.message}
           isInvalid={!!errors.message}
-          label="Message"
+          label="Mensagem"
           maxRows={8}
           minRows={4}
           name="message"
-          placeholder="Tell me about your project, timeline, and any specific requirements..."
+          placeholder="Fale-me sobre o seu projeto, cronograma e quaisquer requisitos específicos..."
           value={formData.message}
           variant="bordered"
           onBlur={() => handleInputBlur("message", formData.message)}
@@ -138,7 +138,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
             }
             type="submit"
           >
-            {isSubmitting ? "Sending..." : "Send Message"}
+            {isSubmitting ? "Sending..." : "Enviar mensagem"}
           </Button>
 
           <Button
@@ -156,7 +156,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({
             variant="bordered"
             onPress={resetForm}
           >
-            Reset Form
+            Redefinir formulário
           </Button>
         </div>
       </motion.form>

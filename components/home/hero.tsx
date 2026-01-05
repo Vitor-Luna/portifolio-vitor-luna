@@ -45,8 +45,11 @@ export const HeroSection = ({
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            Hi, I&apos;m {name} &mdash; I design &amp; code modern web
-            experiences.
+            Olá,
+            me chamo Vitor Luna
+            Atuo com integração de sistemas corporativos,
+            APIs REST/SOAP e
+            pipelines de dados.
           </motion.h1>
 
           <motion.p
@@ -68,7 +71,7 @@ export const HeroSection = ({
               download
               aria-label="Download CV in PDF format"
               className="w-full sm:w-auto"
-              href="/new CV.pdf"
+              href="/CV João Vitor 2025.pdf"
             >
               <Button
                 fullWidth

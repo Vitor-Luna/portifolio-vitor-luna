@@ -1,471 +1,248 @@
 export const DATA = {
   home: {
     hero: {
-      name: "Sofiane Bahmed",
-      title: "Full stack developer & UI/UX Designer",
+      name: "Vitor Luna",
+      title: "Desenvolvedor Full-Stack com foco em Back-End",
       subtitle:
-        "I build fast, accessible and visually engaging web experiences.",
+        "Integrações de sistemas, APIs REST/SOAP, automações e pipelines de dados",
     },
     skills: {
-      sectionTitle: "Skills & Expertise",
-      sectionDescription:
-        " Specialized in creating modern digital experiences with cutting-edge technologies",
-      overview: [
-        {
-          name: "UI/UX Design",
-          level: 95,
-          icon: "lucide:layout-dashboard",
-          color: "primary",
-        },
-        {
-          name: "Frontend Development",
-          level: 90,
-          icon: "lucide:code",
-          color: "secondary",
-        },
-        {
-          name: "Mobile Development",
-          level: 85,
-          icon: "lucide:smartphone",
-          color: "success",
-        },
-        {
-          name: "Motion Design",
-          level: 88,
-          icon: "lucide:video",
-          color: "warning",
-        },
-      ],
+  sectionTitle: "Skills & Expertise",
+  sectionDescription:
+    "Especializado em soluções corporativas, automações e desenvolvimento de sistemas escaláveis",
+  overview: [
+    {
+      name: "Back-End Development",
+      level: 95,
+      icon: "lucide:server",
+      color: "primary",
     },
+    {
+      name: "Node.js",
+      level: 90,
+      icon: "logos:nodejs-icon",
+      color: "secondary",
+    },
+    {
+      name: "Python",
+      level: 85,
+      icon: "logos:python",
+      color: "success",
+    },
+    {
+      name: "API Integration",
+      level: 90,
+      icon: "lucide:git-merge",
+      color: "warning",
+    },
+    {
+      name: "SQL & Databases",
+      level: 88,
+      icon: "lucide:database",
+      color: "primary",
+    },
+    {
+      name: "Big Data & Pipelines",
+      level: 20,
+      icon: "lucide:layers",
+      color: "success",
+    },
+    {
+      name: "ERP Systems (TOTVS & SAP)",
+      level: 75,
+      icon: "lucide:boxes",
+      color: "warning",
+    },
+    {
+      name: "JSON/XML",
+      level: 75,
+      icon: "lucide:file-code",
+      color: "primary",
+    }
+  ],
+},
     testimonials: {
-      sectionTitle: "Client Testimonials",
-      sectionDescription: "What clients say about working together",
+      sectionTitle: "Depoimentos",
+      sectionDescription: "O que colegas e clientes dizem sobre meu trabalho",
       items: [
         {
           id: 1,
-          name: "Sarah Johnson",
-          role: "Product Manager at TechNova",
+          name: "Rômulo Gonçalves",
+          role: "Desenvolvedor Java Pleno - Betha Sistemas",
           content:
-            "The design system created for our SaaS platform reduced our development time by 40% while improving consistency across all our products. The attention to accessibility standards was particularly impressive.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=1",
+            "Tenho o privilégio de cursar Análise e Desenvolvimento de Sistemas ao lado do Vitor, e posso dizer que ele se destaca desde o início por sua dedicação e interesse genuíno pela área de tecnologia. Sempre disposto a aprender mais, o Vitor é aquele colega que busca compreender a fundo os conteúdos e não mede esforços para ajudar quem está ao redor. É alguém com pensamento lógico apurado, espírito colaborativo e uma trajetória promissora na área de TI.",
+          image: "",
         },
         {
           id: 2,
-          name: "Michael Chen",
-          role: "CTO at StartUpGrid",
+          name: "Lucas Caetano",
+          role: "Soldado de 1ª Classe - Força Aérea Brasileira",
           content:
-            "Working with this team transformed our mobile app's user retention by 35% in just three months. Their data-driven design approach helped us identify pain points we didn't even know existed.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=2",
-        },
-        {
-          id: 3,
-          name: "David Rodriguez",
-          role: "UX Director at FinTech Global",
-          content:
-            "The dashboard redesign resulted in a 50% reduction in support tickets. Their ability to balance complex financial data with clean visualization is unmatched in the industry.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=3",
-        },
-        {
-          id: 4,
-          name: "Priya Patel",
-          role: "E-commerce Manager at StyleHub",
-          content:
-            "Our conversion rate increased by 28% after implementing their checkout flow redesign. They understood our international user base better than our internal team.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=4",
-        },
-        {
-          id: 5,
-          name: "James Wilson",
-          role: "Head of Product at HealthTrack",
-          content:
-            "The healthcare app we built together received FDA approval largely due to its intuitive patient interface. Their understanding of regulatory requirements saved us months of rework.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
-        },
-        {
-          id: 6,
-          name: "Lisa Nguyen",
-          role: "Marketing Director at EduTech Solutions",
-          content:
-            "Our user onboarding completion rate went from 65% to 92% after their redesign. The way they simplified complex educational concepts into clear interfaces was remarkable.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=6",
-        },
-        {
-          id: 7,
-          name: "Thomas Okafor",
-          role: "Founder at AgriTech Africa",
-          content:
-            "They designed an agricultural monitoring app that works perfectly even in low-connectivity rural areas. Cultural sensitivity and technical innovation in perfect balance.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=7",
+            "Tive o prazer de trabalhar com Vitor Luna durante o período em que estivemos no Grupo de Acompanhamento e Controle (GAC-PAC) da Aeronáutica. Vitor se destacou como um profissional comprometido, responsável e extremamente dedicado às suas funções. Sua habilidade em lidar com documentos e processos complexos, além de sua atenção aos detalhes, sempre garantiu que as operações fluíssem de maneira eficiente. Além disso, ele sempre demonstrou proatividade e excelente capacidade de trabalho em equipe, o que contribuiu significativamente para o sucesso do nosso trabalho conjunto. Vitor é, sem dúvida, um excelente profissional e seria uma valiosa adição para qualquer equipe.",
+          image: "",
         },
       ],
     },
   },
   about: {
     profile: {
-      name: "Sofiane Bahmed",
-      title: "Full Stack Developer",
-      image:
-        "https://res.cloudinary.com/devq06psf/image/upload/v1750626923/chic_soba_bkhd8o.png",
+      name: "Vitor Luna",
+      title: "Desenvolvedor Full-Stack & Analista de Sistemas",
+      image: "/images/eu_port.png",
       description: [
-        "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
-        "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.",
-        "Outside of code, I enjoy motion design, product strategy, and always pushing the boundaries of front-end development.",
+        "Desenvolvedor Full-Stack e Analista de Sistemas com experiência em integração de sistemas corporativos, APIs REST e SOAP, manipulação de dados em JSON e consultas em PostgreSQL.",
+        "Atualmente atuo na N4LINK no desenvolvimento de integrações utilizando Node.js e XML, criação de documentações técnicas, testes de APIs via Postman e SoapUI, monitoramento e suporte operacional de sistemas.",
+        "Tenho vivência prática com ERPs TOTVS (Protheus e RM) e SAP (SAP Business One Service Layer, S/4HANA e SAP-RFC), garantindo a performance e confiabilidade das integrações.",
+        "Experiência anterior na Força Aérea Brasileira como Militar, atuando no grupamento de Cavalaria, Canil (K9) e o antigo 64º Batalhão de Infantaria (BINFA-64, atualmente GSD-SJ), e posteriormente no GAC-PAC (Grupo de Acompanhamento e Controle - Programa Aeronave de Combate) em funções administrativas, com foco em processos de aeronaves de combate, controle de informações e suporte operacional."
       ],
     },
     education: [
       {
-        title: "High School of Art and Design",
-        date: "2003 - 2006",
-        icon: "mdi:palette",
-        description:
-          "Focused on foundational art and visual design principles, which sparked my early interest in creative problem solving. Explored traditional media, digital illustration, and visual storytelling.",
-      },
-      {
-        title: "University of Technology and Design",
-        date: "2006 - 2010",
+        title: "Curso de Análise e Desenvolvimento de Sistemas - Uninter",
+        date: "2024 - 2026",
         icon: "mdi:school",
         description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
+          "Formação voltada para desenvolvimento de software, banco de dados, APIs e metodologias ágeis.",
       },
       {
-        title: "Institute of Interactive Media",
-        date: "2011 - 2012",
+        title: "Fundamentos de Python e Data Science",
+        date: "2024",
         icon: "mdi:school-outline",
         description:
-          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
+          "Curso focado em fundamentos de Python, lógica aplicada a dados e conceitos iniciais de Data Science, servindo como base para automações, integrações e pipelines de dados.",
       },
     ],
     experience: [
       {
-        title: "Creative Director",
-        date: "2018 - Present",
+        title: "Estagiário em Desenvolvimento de Software",
+        date: "2024 - Presente",
         icon: "mdi:briefcase",
         description:
-          "Lead creative and development teams to build digital experiences that combine innovation with user empathy. Oversee branding, UI/UX strategy, and development pipelines for tech startups and clients.",
+          "Atuação em back-end, integração de sistemas, APIs REST/SOAP, automações e pipelines de dados corporativos na N4LINK.",
       },
       {
-        title: "Senior UX Engineer",
-        date: "2015 - 2018",
-        icon: "mdi:monitor-dashboard",
+        title: "Militar - Força Aérea Brasileira",
+        date: "Anterior",
+        icon: "mdi:airplane",
         description:
-          "Designed and implemented high-fidelity web interfaces using React, Figma, and Tailwind. Collaborated cross-functionally with developers and designers to craft intuitive user flows and interactions.",
-      },
-      {
-        title: "Front-End Developer & Designer",
-        date: "2012 - 2015",
-        icon: "mdi:code-tags",
-        description:
-          "Developed responsive websites and applications with a focus on accessibility, visual aesthetics, and performance. Delivered pixel-perfect interfaces from wireframes to production code.",
+          "Atuei na FAB com funções operacionais e administrativas, desenvolvendo disciplina, responsabilidade e foco em processos. Na área operacional, desempenhei atividades de Guarda e Sentinela, rondas ostensivas, controle de acesso, vigilância, atendimento ao público, Cavalaria e Canil (K9), além de instrução na Esquadrilha de Formação Militar (EFM). Na área administrativa, trabalhei no GAC-PAC (Programa Aeronave de Combate), realizando controle de documentos, fluxo de informações, estoques e suporte operacional aos processos de aeronaves de combate.",
       },
     ],
     technologies: {
       frontend: {
-        description:
-          "I craft dynamic, responsive UIs using modern JavaScript frameworks and CSS tools.",
+        description: "Desenvolvo interfaces funcionais e responsivas quando necessário para aplicações e testes.",
         tools: [
+          { name: "HTML", icon: "logos:html-5" },
+          { name: "CSS", icon: "logos:css-3" },
+          { name: "JavaScript", icon: "logos:javascript" },
           { name: "React", icon: "logos:react" },
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "Tailwind", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "HTML5", icon: "logos:html-5" },
-          { name: "CSS3", icon: "logos:css-3" },
+          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
         ],
       },
       backend: {
-        description:
-          "I build fast APIs and scalable backends using Node.js, Bun, and Python.",
+        description: "Desenvolvo APIs REST/SOAP, automações, integração de sistemas e manipulação de dados corporativos.",
         tools: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Bun", icon: "logos:bun" },
           { name: "Python", icon: "logos:python" },
+          { name: "PostgreSQL", icon: "logos:postgresql" },
           { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "PostgresSQL", icon: "logos:postgresql" },
-          { name: "OpenAI", icon: "simple-icons:openai" },
+          { name: "JSON", icon: "mdi:json" },
+          { name: "Postman", icon: "simple-icons:postman" },
+          { name: "SoapUI", icon: "simple-icons:soapui" },
         ],
       },
-      uiUx: {
-        description:
-          "I design smooth, user-centered interfaces and high-fidelity prototypes.",
+      erpIntegration: {
+        description: "Experiência prática com ERPs corporativos, realizando integração, consumo de APIs e automações.",
         tools: [
-          { name: "Figma", icon: "logos:figma" },
-          { name: "Framer", icon: "simple-icons:framer", color: "#0055FF" },
-          { name: "Notion", icon: "logos:notion-icon" },
-        ],
-      },
-      graphicDesign: {
-        description:
-          "My graphic work includes logos, branding, and posters using Adobe Suite.",
-        tools: [
-          { name: "Photoshop", icon: "logos:adobe-photoshop" },
-          { name: "Illustrator", icon: "logos:adobe-illustrator" },
-        ],
-      },
-      motionDesign: {
-        description:
-          "I animate UI flows and cinematic intros using After Effects and Blender.",
-        tools: [
-          { name: "After Effects", icon: "logos:adobe-after-effects" },
-          { name: "Premiere Pro", icon: "logos:adobe-premiere" },
-          { name: "Blender", icon: "logos:blender" },
+          { name: "SAP Business One Service Layer", icon: "simple-icons:sap" },
+          { name: "SAP S/4HANA", icon: "simple-icons:sap" },
+          { name: "SAP-RFC", icon: "simple-icons:sap" },
+          { name: "TOTVS Protheus", icon: "simple-icons:totvs" },
+          { name: "TOTVS RM", icon: "simple-icons:totvs" },
         ],
       },
     },
   },
   projects: {
-    sectionTitle: "Featured Projects",
+    sectionTitle: "Projetos",
     sectionDescription:
-      "A selection of my recent projects showcasing UI/UX design and development expertise",
+      "Alguns projetos pessoais que desenvolvi para projetos universitários e vitrines do meu conhecimento.",
     work: [
       {
         id: 1,
-        title: "Digital Banking App",
+        title: "Calculadora CO2 - Novo Hamburgo RS",
         description:
-          "A streamlined digital banking interface emphasizing clarity, speed, and intuitive design.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-3",
-        ],
-        category: "Applications",
+          "Calcule suas emissões semanais de CO₂ e contribua para uma cidade mais sustentável. Novo Hamburgo está comprometida com a redução de emissões de carbono.",
+        image: "/images/calCO2.png",
+        gallery: ["/images/calCO2.png"],
+        category: "Universitários",
         details:
-          "A feature-rich digital banking app built with React and TailwindCSS, integrating seamless animations via Framer Motion. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "Projeto universitário, tendo como tema criar algo que agregue para a sociedade e conscientização.",
+        github: "https://github.com/Vitor-Luna/calculadora-co2-novo-hamburgoRS",
+        live: "",
         tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
+          { name: "Node.js", icon: "logos:nodejs-icon" },
+          { name: "SQL", icon: "logos:mysql-icon" },
+          { name: "Html", icon: "vscode-icons:file-type-html" },
+          { name: "CSS", icon: "vscode-icons:file-type-css"},
         ],
       },
       {
         id: 2,
-        title: "E-commerce Platform",
+        title: "Fome Zer0 - São José dos Campos SP",
         description:
-          "Scalable and responsive online store with dynamic product filtering and intuitive cart management.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-3",
-        ],
-        category: "Web Development",
+          "Back-end em Python com MySQL e endpoints REST para gerenciamento de alimentos doados.",
+        image: "/images/fome0.png",
+        gallery: ["/images/fome0.png"],
+        category: "Universitários",
         details:
-          "A fully functional e-commerce platform built with React and TailwindCSS. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "Projeto universitário, tendo como tema criar algo que agregue para a sociedade e conscientização. Este projeto não demos continuidade, já que preferiamos criar outro (no caso a calculadora de carbono)",
+        github: "https://github.com/Vitor-Luna/Sistema-contra-a-fome",
+        live: "",
         tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
+          { name: "Python", icon: "logos:python" },
+          { name: "Django", icon: "logos:django-icon" },
+          { name: "JavaScript", icon: "logos:javascript" },
+          { name: "Html", icon: "vscode-icons:file-type-html" },
+          { name: "CSS", icon: "vscode-icons:file-type-css" },
         ],
       },
       {
         id: 3,
-        title: "Travel Booking System",
+        title: "API de Middleware de Integração",
         description:
-          "Comprehensive booking platform for flights, hotels, and rentals with live availability.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-3",
-        ],
-        category: "Web Development",
+          "Este projeto é um middleware API desenvolvido para simular e demonstrar um cenário real de integração entre sistemas externos e um ERP corporativo",
+        image: "/images/api-mid.png",
+        gallery: ["/images/api-mid.png"],
+        category: "APIs - ERPs",
         details:
-          "A modern travel booking system built with Next.js and TailwindCSS. Users can search and book flights, hotels, and car rentals with real-time availability and intuitive UI components powered by HeroUI.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A ideia aqui não é apenas “receber e devolver dados”, mas mostrar como um middleware de verdade se comporta em ambiente corporativo: com validação, transformação, autenticação, resiliência e rastreab",
+        github: "https://github.com/Vitor-Luna/integration-middleware-api",
+        live: "",
         tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-        ],
-      },
-      {
-        id: 4,
-        title: "AI Chat Assistant",
-        description:
-          "Smart customer support assistant with contextual awareness and real-time replies.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-3",
-        ],
-        category: "Applications",
-        details:
-          "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "OpenAI API", icon: "simple-icons:openai" },
-          { name: "Vercel", icon: "simple-icons:vercel" },
-        ],
-      },
-      {
-        id: 5,
-        title: "Portfolio API & CMS",
-        description:
-          "Headless API backend with admin-friendly CMS capabilities.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-3",
-        ],
-        category: "Backend Services",
-        details:
-          "A modular REST API built with Node.js and Express, powering dynamic portfolio websites. It includes JWT-based authentication, MySQL integration, and a Swagger-documented CMS interface for easy content management by non-developers.",
-        github: "https://github.com",
-        tech: [
+          { name: "JavaScript", icon: "logos:javascript" },
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-          { name: "Swagger", icon: "simple-icons:swagger" },
-        ],
-      },
-      {
-        id: 6,
-        title: "Fitness Tracker App",
-        description:
-          "Monitor workouts, calorie intake, and goals in one place.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-3",
-        ],
-        category: "Applications",
-        details:
-          "A cross-platform fitness application developed with React Native and styled using TailwindCSS via Expo. It offers calorie tracking, workout logging, analytics via charts, and custom goal-setting—all within a mobile-optimized interface.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React Native", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
-        ],
-      },
-      {
-        id: 7,
-        title: "Content Scheduler",
-        description:
-          "Plan, schedule, and automate your social media posts effortlessly.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-3",
-        ],
-        category: "Applications",
-        details:
-          "A productivity app designed for content creators featuring calendar syncing, automated post publishing, rich media previews, and cloud synchronization for seamless cross-device access.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-        ],
-      },
-      {
-        id: 8,
-        title: "Real Estate Dashboard",
-        description:
-          "Comprehensive dashboard to manage properties, leads, and sales pipelines effectively.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-3",
-        ],
-        category: "Web Development",
-        details:
-          "An admin panel tailored for real estate professionals featuring interactive data visualizations, lead tracking, and CRM system integrations to streamline client and property management.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Chart.js", icon: "simple-icons:chartdotjs" },
-        ],
-      },
-      {
-        id: 9,
-        title: "Crypto Wallet API",
-        description:
-          "Robust backend API for secure cryptocurrency operations and blockchain interactions.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-3",
-        ],
-        category: "Backend Services",
-        details:
-          "Secure Node.js API supporting Ethereum and Bitcoin transactions. Features transaction signing, wallet address creation, and real-time blockchain event monitoring using Web3.js. Enhanced with hardware security module (HSM) integration for secure key management.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Ethereum", icon: "logos:ethereum" },
-          { name: "Web3.js", icon: "simple-icons:web3dotjs" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-        ],
-      },
-      {
-        id: 10,
-        title: "SaaS Subscription API",
-        description:
-          "Backend API managing SaaS subscriptions, billing, and user accounts.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-3",
-        ],
-        category: "Backend Services",
-        details:
-          "RESTful API supporting SaaS subscription workflows with Stripe integration, usage metering, tiered pricing, webhook handling, trial periods, and analytics. Optimized for high concurrency with Redis caching.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Stripe", icon: "logos:stripe" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "Redis", icon: "logos:redis" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
+          { name: "API REST & SOAP", icon: "carbon:api" },
+          { name: "Json", icon: "logos:json" },
+          { name: "XML", icon: "vscode-icons:file-type-xml" },
+          { name: "Postman", icon: "logos:postman-icon" },
+          { name: "Swagger", icon: "logos:swagger" },
         ],
       },
     ],
   },
   contact: {
-    heading:
-      "Have a project in mind? Get in touch and let's create something amazing.",
+    heading: "Vamos trabalhar juntos? Entre em contato.",
     location: {
       mapSrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.017947223557!2d-122.41941508468191!3d37.774929779759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cbb69f3ef%3A0x4c80b42c33b6a77d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1715701234567!5m2!1sen!2sus",
-      address: "San Francisco, CA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117359.22358233381!2d-45.945413575317964!3d-23.18932700375446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4bb3858cc2e7%3A0xba25a33168f8c1!2zU8OjbyBKb3PDqSBkb3MgQ2FtcG9zLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1767583603688!5m2!1spt-BR!2sbr",
+      address: "São José dos Campos, SP",
     },
   },
   morphingTexts: {
-    about: ["Creative", "Passionate", "Developer"] as const,
-    projects: ["My Work", "Creations", "Experiments", "Innovations"] as const,
-    contact: ["Let's", "Build", "Together"] as const,
+    about: ["Criativo", "Proativo", "Dev"],
+    projects: ["Projetos", "Integrações", "APIs"],
+    contact: ["Vamos", "Conectar", "Agora"],
   },
   navigation: [
     { name: "Home", href: "/", icon: "lucide:home" },
@@ -474,27 +251,18 @@ export const DATA = {
     { name: "Contact", href: "/contact", icon: "lucide:send" },
   ],
   footer: {
-    name: "Sofiane Bahmed",
-    description: "Always interested in new projects and collaborations.",
+    name: "Vitor Luna",
+    description:
+      "Sempre buscando crescer profissionalmente, contribuir em projetos desafiadores e expandir minhas habilidades em integração de sistemas e desenvolvimento de software.",
     contact: {
-      email: "hello@example.com",
-      phone: "+1 (555) 123-4567",
-      location: "San Francisco, CA",
+      email: "joaoluna853@gmail.com",
+      phone: "+55 12 99222-7736",
+      location: "São José dos Campos, SP",
     },
     socialLinks: [
-      { platform: "X", url: "https://x.com", icon: "simple-icons:x" },
-      { platform: "GitHub", url: "https://github.com", icon: "mdi:github" },
-      {
-        platform: "LinkedIn",
-        url: "https://linkedin.com",
-        icon: "mdi:linkedin",
-      },
-      {
-        platform: "Dribbble",
-        url: "https://dribbble.com",
-        icon: "mdi:dribbble",
-      },
+      { platform: "GitHub", url: "https://github.com/Vitor-Luna", icon: "mdi:github" },
+      { platform: "LinkedIn", url: "https://www.linkedin.com/in/vitor-luna-a66619310/", icon: "mdi:linkedin" },
     ],
-    services: ["UI/UX Design", "Web Development", "Mobile Apps", "Consulting"],
+    services: ["Back-End", "Integrações", "APIs REST/SOAP", "Dados & Pipelines (em evolução)"],
   },
 } as const;

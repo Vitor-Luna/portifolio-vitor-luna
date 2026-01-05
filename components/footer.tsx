@@ -20,7 +20,7 @@ export const Footer = () => {
       >
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Let&apos;s Connect</h3>
+            <h3 className="text-2xl font-bold mb-4">Entre em contato</h3>
             <p className="text-foreground-600 mb-4">{description}</p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (
@@ -39,7 +39,7 @@ export const Footer = () => {
             </div>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Services</h4>
+            <h4 className="font-semibold mb-4">Conhecimentos em:</h4>
             <ul className="space-y-2 text-foreground-600">
               {services.map((service, index) => (
                 <li key={index}>{service}</li>
@@ -47,7 +47,7 @@ export const Footer = () => {
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Contact</h4>
+            <h4 className="font-semibold mb-4">Contatos:</h4>
             <ul className="space-y-2 text-foreground-600">
               <li className="flex items-center gap-2">
                 <Icon icon="lucide:mail" />
@@ -66,7 +66,7 @@ export const Footer = () => {
         </div>
         <div className="border-t border-divider pt-8 text-center text-foreground-500">
           <p>
-            © {new Date().getFullYear()} {name}. made with &hearts;.
+            © {new Date().getFullYear()} {name}. Made With code.
           </p>
         </div>
       </motion.div>
